@@ -1,0 +1,150 @@
+body{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+.text{
+	padding:10px;
+	border: 1px solid black;
+	border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+.text:focus{
+    outline: none;
+}
+
+.btn-default{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid black;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color:#000000;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.btn-default:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+.btn-success{
+	background-color: #009933;
+    background-repeat:no-repeat;
+    border: 1px solid black;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color:#ffffff;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.btn-success:active {
+  background-color: #00ff33;
+  transform: translateY(2px);
+}
+
+
+.btn-danger{
+    background-color: #ff6666;
+    background-repeat:no-repeat;
+    border: 1px solid black;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color:#ffffff;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+
+}
+
+.btn-danger:active {
+  background-color: #ff3333;
+  transform: translateY(2px);
+}
+
+.leftFloat{
+	float: left;
+    margin-bottom: 10px;
+}
+.rightFloat{
+	float: right;
+    margin-bottom: 10px;
+    
+}
+.noFloat{
+	clear: both;
+    margin-bottom: 10px;
+}
+
+.errorText{
+    font-size: 13px;
+    color: #cc0000;
+}
+.successText{
+    font-size: 13px;
+    color: #006600;
+}
+
+footer {
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+}
+
+.title{
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 30px;
+    margin: 5px;
+    color: #006600;
+}
+
+.subtitle{
+    font-family: "Georgia, serif";
+    font-size: 15px;
+    margin: 5px;
+    margin-bottom: 15px;
+    color: #000066;
+}
+
+.footerLabel{
+    margin: 5px;
+}
+
+.mydiv {
+    width: 650px; 
+    height : 250px;
+    border: 1px solid black; 
+    border-radius: 5px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 15px;
+}
